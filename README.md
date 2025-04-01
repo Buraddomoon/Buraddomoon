@@ -1,16 +1,46 @@
-## Hi there 👋
+<h1 align="center">Fala aí! 👋 Eu sou o Fábio Lopes</h1>
 
-<!--
-**Buraddomoon/Buraddomoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+🎓 Estudante de Análise e Desenvolvimento de Sistemas • UNISANTA  
+<br>
+🎮 Futuro Criador de Games | Desenvolvedor Back-End | Dev Web  
+<br>
+🧠 Focado em C#, Java, BluePrintUE e Python voltado à segurança  
+<br>
+🌎 Inglês intermediário e sempre evoluindo!  
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Em andamento
+
+- 🔷 *Curso de Desenvolvimento com Lua para Roblox* – Udemy  
+- 🌀 *Curso de BluePrintUE (Unreal Engine)* – Udemy  
+- ☕ *Curso de Java* – Gustavo Guanabara (YouTube)  
+- 🐍 *Tecnologia da Segurança em Python* – Grupo privado no Telegram  
+- 🎯 *Aprofundamento em C#* – principal linguagem da faculdade
+
+---
+
+### 💻 Áreas de Interesse
+
+- 🎮 *Criação de Games* com Unreal Engine, BluePrints, programação em Lua e c# com Unity
+- 🖥️ *Desenvolvimento Back-End* com C# e Java e lógica de programação  
+- 🌐 *Desenvolvimento Web* (complementando o back-end)  
+- 🔐 *Segurança e automação com Python*
+
+---
+
+### 🛠️ Tecnologias em aprendizado
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-000000?style=for-the-badge&logo=unrealengine&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+### 🌐 Conecte-se comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fábio%20Lopes-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fabio-lopes-962b11359/)
