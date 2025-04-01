@@ -16,7 +16,7 @@
 
 - 🔷 *Curso de Desenvolvimento com Lua para Roblox* – Udemy  
 - 🌀 *Curso de BluePrintUE (Unreal Engine)* – Udemy  
-- ☕ *Curso de Java* – Gustavo Guanabara (YouTube)  
+- ☕ *Curso de Java* – Gustavo Guanabara (Cruso em Video)  
 - 🐍 *Tecnologia da Segurança em Python* – Grupo privado no Telegram  
 - 🎯 *Aprofundamento em C#* – principal linguagem da faculdade
 
@@ -24,7 +24,7 @@
 
 ### 💻 Áreas de Interesse
 
-- 🎮 *Criação de Games* com Unreal Engine, BluePrints, programação em Lua e c# com Unity
+- 🎮 *Criação de Games* com Unreal Engine, BluePrints, programação em Lua e C# com Unity
 - 🖥️ *Desenvolvimento Back-End* com C# e Java e lógica de programação  
 - 🌐 *Desenvolvimento Web* (complementando o back-end)  
 - 🔐 *Segurança e automação com Python*
