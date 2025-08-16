@@ -43,4 +43,4 @@
 
 ### 🌐 Conecte-se comigo
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fábio%20Lopes-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fabio-lopes-31b46a373))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fábio%20Lopes-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fabio-lopes-31b46a373)
