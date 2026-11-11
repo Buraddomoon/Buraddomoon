@@ -1,0 +1,87 @@
+{
+  "python": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "a90c00fd441482b4867ad5d7fa68db56aab4891f1b1e6879fe1ea3b355cf378f"
+  },
+  "typescript": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typescript.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "7f023e8d1e767370306ec9437d2de5d5af97491d6208dd7799a3808a7c10a36a"
+  },
+  "claudecode": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/claudecode.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "f7691bedae6d71e39e41436f39e453430c1ee21f6305a596984c70a5786abbda"
+  },
+  "unity": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/unity.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "b5b66fda997db7445483ff2917b1c17abb8da607d43905835551991aeb940753"
+  },
+  "unrealengine": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/unrealengine.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "06bbd4833c91e4ad085dd8203b26739538a881e38755a3efc9ed8d57cfadbb73"
+  },
+  "metasploit": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/metasploit.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "5937af3b5e16285b8e501d0f6bb96c9f9c281e03c5eade6dcc0203209b91eef7"
+  },
+  "kalilinux": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/kalilinux.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "0ceffe5e8ce02aae42f7f5f6cada390f79e5ab6450a4e460b03127a370c33a1a"
+  },
+  "react": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "ab9136a1a4a8be72ac6743e1bdd1912d878bd68d57787ea7a6c6838e3b23c01c"
+  },
+  "fastapi": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "af0bdd5fd3f16a49e341089049418af7b02a04eefdc088b2e26c4524fa8b75d1"
+  },
+  "roblox": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/roblox.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "9245b2f23fde91a5ef34f36aea32c1bf08a1a1254c08b86e7f060a4f72986234"
+  },
+  "luau": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/luau.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "00ac44aed2d92d0bd0188e5087b521b659df4cb2c71093f1e3bf56f368f29a48"
+  },
+  "spring": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/spring.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "44f55b1c7e9db0fab5bbb9b91247844986a39995b6eadf0aa3ca6edf47c1097e"
+  },
+  "java": {
+    "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg",
+    "library": "Devicon / MIT",
+    "original_sha256": "7b05ebcc538e747d077ed3c3a2491122923d3ec755cccacb670be9372e4bbbc5"
+  },
+  "csharp": {
+    "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-plain.svg",
+    "library": "Devicon / MIT",
+    "original_sha256": "ccb93dc80b4fbd7363158d520c948ba798f843eb77ece519d06ae1b92058a8b3"
+  },
+  "codex": {
+    "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/codex/codex-plain.svg",
+    "library": "Devicon / MIT",
+    "original_sha256": "bf930292df47399b78d5da114851026d0fad1faf956405e8d9cc8d63fea21e5b"
+  },
+  "firebase": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/firebase.svg",
+    "library": "Simple Icons / CC0-1.0",
+    "original_sha256": "3f46d84a41479d7789cc36b82c2b6852e6bbbfd30ebee5b7a3aef7d49758295a"
+  },
+  "blackarch": {
+    "url": "https://blackarch.org/images/logo/ba-logo.png",
+    "library": "Official BlackArch logo reference; simplified pixel redraw of the Arch silhouette and katana",
+    "original_sha256": "7509fb37496d16e49de19f52495e14a985ce560879932b534a97de781a77fc77"
+  }
+}

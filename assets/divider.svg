@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-labelledby="title desc"><title id="title">Section divider</title><desc id="desc">A thin line with smoothly moving pixel accents.</desc><style>
+.orb-strip{animation:orbStrip 8s steps(96,end) infinite;will-change:transform}
+@keyframes orbStrip{to{transform:translateX(-27648px)}}
+.event-active{animation:eventActive 10s steps(1,end) infinite}.check-active{animation:checkActive 10s steps(1,end) infinite}.evidence-outline{animation:evidenceOutline 10s steps(1,end) infinite}
+.token-in{visibility:hidden;animation:tokenIn 10s cubic-bezier(.4,0,.2,1) infinite}.token-out{visibility:hidden;animation:tokenOut 10s cubic-bezier(.4,0,.2,1) infinite}.check-scan{visibility:hidden;animation:checkScan 10s linear infinite}
+.evidence-row-1{visibility:hidden;animation:evidenceRow1 10s steps(1,end) infinite}.evidence-row-2{visibility:hidden;animation:evidenceRow2 10s steps(1,end) infinite}.evidence-row-3{visibility:hidden;animation:evidenceRow3 10s steps(1,end) infinite}
+@keyframes eventActive{0%,8%,96%,100%{fill:#7B8494}9%,95%{fill:#4778FF}}@keyframes checkActive{0%,29%,96%,100%{fill:#7B8494}30%,95%{fill:#4778FF}}@keyframes evidenceOutline{0%,62%,96%,100%{stroke:#7B8494}63%,95%{stroke:#4778FF}}
+@keyframes tokenIn{0%,12%{visibility:hidden;transform:translateX(0)}13%{visibility:visible;transform:translateX(0)}29%{visibility:visible;transform:translateX(32px)}30%,100%{visibility:hidden;transform:translateX(32px)}}
+@keyframes tokenOut{0%,49%{visibility:hidden;transform:translateX(0)}50%{visibility:visible;transform:translateX(0)}62%{visibility:visible;transform:translateX(32px)}63%,100%{visibility:hidden;transform:translateX(32px)}}
+@keyframes checkScan{0%,30%{visibility:hidden;transform:translateY(0)}31%{visibility:visible;transform:translateY(0)}48%{visibility:visible;transform:translateY(40px)}49%,100%{visibility:hidden;transform:translateY(40px)}}
+@keyframes evidenceRow1{0%,66%,96%,100%{visibility:hidden}67%,95%{visibility:visible}}@keyframes evidenceRow2{0%,72%,96%,100%{visibility:hidden}73%,95%{visibility:visible}}@keyframes evidenceRow3{0%,78%,96%,100%{visibility:hidden}79%,95%{visibility:visible}}
+.playhead{animation:playhead 12s cubic-bezier(.4,0,.2,1) infinite}.state-a{animation:stateA 12s steps(1,end) infinite}.state-b{animation:stateB 12s steps(1,end) infinite}.state-c{animation:stateC 12s steps(1,end) infinite}.state-border-a{animation:borderA 12s steps(1,end) infinite}.state-border-b{animation:borderB 12s steps(1,end) infinite}.state-border-c{animation:borderC 12s steps(1,end) infinite}
+.forward-label{animation:forwardLabel 12s steps(1,end) infinite}.restore-label{visibility:hidden;animation:restoreLabel 12s steps(1,end) infinite}
+@keyframes playhead{0%,8%,100%{transform:translateX(0)}24%,36%,78%,86%{transform:translateX(92px)}52%,62%{transform:translateX(184px)}96%{transform:translateX(0)}}
+@keyframes stateA{0%,23%,96%,100%{fill:#4778FF}24%,95%{fill:#7B8494}}@keyframes stateB{0%,23%,52%,77%,96%,100%{fill:#7B8494}24%,51%,78%,95%{fill:#4778FF}}@keyframes stateC{0%,51%,78%,100%{fill:#7B8494}52%,77%{fill:#4778FF}}
+@keyframes borderA{0%,23%,96%,100%{stroke:#4778FF}24%,95%{stroke:#7B8494}}@keyframes borderB{0%,23%,52%,77%,96%,100%{stroke:#7B8494}24%,51%,78%,95%{stroke:#4778FF}}@keyframes borderC{0%,51%,78%,100%{stroke:#7B8494}52%,77%{stroke:#4778FF}}
+@keyframes forwardLabel{0%,61%{visibility:visible}62%,100%{visibility:hidden}}@keyframes restoreLabel{0%,61%{visibility:hidden}62%,100%{visibility:visible}}
+.connection{animation:connection 4s linear infinite}@keyframes connection{to{stroke-dashoffset:-64}}
+@media(prefers-reduced-motion:reduce){.orb-strip{animation:none;transform:none}.event-active,.check-active,.evidence-outline,.token-in,.token-out,.check-scan,.evidence-row-1,.evidence-row-2,.evidence-row-3,.playhead,.state-a,.state-b,.state-c,.state-border-a,.state-border-b,.state-border-c,.forward-label,.restore-label,.connection{animation:none}.token-in,.token-out,.check-scan,.restore-label{visibility:hidden}.evidence-outline{stroke:#4778FF}.evidence-row-1,.evidence-row-2,.evidence-row-3{visibility:visible}.state-a{fill:#4778FF}.state-border-a{stroke:#4778FF}}
+
+.intro-stage{opacity:0;transform:translateY(8px);will-change:opacity,transform}.intro-controller{animation:introController 12s ease-in-out infinite}.intro-terminal{animation:introTerminal 12s ease-in-out infinite}.intro-security{animation:introSecurity 12s ease-in-out infinite}
+@keyframes introController{0%,23%,95%,100%{opacity:1;transform:translateY(0)}26%,91%{opacity:0;transform:translateY(-8px)}92%{opacity:0;transform:translateY(8px)}}
+@keyframes introTerminal{0%,26%{opacity:0;transform:translateY(8px)}29%,56%{opacity:1;transform:translateY(0)}59%,100%{opacity:0;transform:translateY(-8px)}}
+@keyframes introSecurity{0%,59%{opacity:0;transform:translateY(8px)}62%,89%{opacity:1;transform:translateY(0)}92%,100%{opacity:0;transform:translateY(-8px)}}
+.intro-step-0{animation:step0 12s steps(1,end) infinite}.intro-step-1{animation:step1 12s steps(1,end) infinite}.intro-step-2{animation:step2 12s steps(1,end) infinite}
+@keyframes step0{0%,25%,92%,100%{fill:#4778FF}26%,91%{fill:#7B8494}}@keyframes step1{0%,25%,59%,100%{fill:#7B8494}26%,58%{fill:#4778FF}}@keyframes step2{0%,58%,92%,100%{fill:#7B8494}59%,91%{fill:#4778FF}}
+.controller-press{animation:controllerPress 12s steps(1,end) infinite}@keyframes controllerPress{0%,9%,17%,100%{fill:#4778FF}10%,16%{fill:#F2F0E8}}
+.terminal-row-1{transform:scaleX(0);animation:typeRow1 12s ease-out infinite}.terminal-row-2{transform:scaleX(0);animation:typeRow2 12s ease-out infinite}.terminal-cursor{animation:terminalCursor 1.2s steps(1,end) infinite}
+@keyframes typeRow1{0%,30%,60%,100%{transform:scaleX(0)}36%,59%{transform:scaleX(1)}}@keyframes typeRow2{0%,37%,60%,100%{transform:scaleX(0)}44%,59%{transform:scaleX(1)}}@keyframes terminalCursor{0%,55%{opacity:1}56%,100%{opacity:0}}
+.security-check{stroke-dasharray:42;stroke-dashoffset:42;animation:securityCheck 12s ease-in-out infinite}@keyframes securityCheck{0%,70%,93%,100%{stroke-dashoffset:42}79%,92%{stroke-dashoffset:0}}
+.code-strip{animation:codeStrip 6s steps(144,end) infinite;will-change:transform}@keyframes codeStrip{to{transform:translateX(-36864px)}}
+.security-reveal{transform:scaleX(0);animation:securityReveal 12s ease-in-out infinite}@keyframes securityReveal{0%,70%,93%,100%{transform:scaleX(0)}79%,92%{transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){.intro-stage,.intro-step-0,.intro-step-1,.intro-step-2,.controller-press,.terminal-row-1,.terminal-row-2,.terminal-cursor,.security-check,.security-reveal,.code-strip{animation:none}.intro-controller{opacity:1;transform:none}.intro-terminal,.intro-security{opacity:0}.intro-step-0{fill:#4778FF}.intro-step-1,.intro-step-2{fill:#7B8494}.code-strip{transform:none}}
+
+.intro-strip{animation:introMorph 9.6s steps(216,end) infinite;will-change:transform}@keyframes introMorph{to{transform:translateX(-62208px)}}
+@media(prefers-reduced-motion:reduce){.intro-strip{animation:none;transform:none}}
+</style><rect x="0" y="0" width="1200" height="56" fill="#101216" /><path d="M48 28L1152 28" stroke="#7B8494" stroke-width="0.6" fill="none"/><rect x="592" y="23" width="10" height="10" fill="#4778FF" /><rect x="608" y="23" width="10" height="10" fill="#F2F0E8" /></svg>

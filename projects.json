@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "aegis",
+    "name": "ÆGIS",
+    "repository": "Buraddomoon/AEGIS",
+    "category": "SECURITY AUTOMATION",
+    "summary": "Detection validation & evidence",
+    "stack": "Python · FastAPI · React",
+    "emblem": "defense-test",
+    "description": "Purple team automation with scoped campaigns, approvals, telemetry correlation and traceable evidence.",
+    "sources": ["https://github.com/Buraddomoon/AEGIS/blob/main/README.md", "https://github.com/Buraddomoon/AEGIS/blob/main/docs/architecture/overview.md"]
+  },
+  {
+    "slug": "rewind",
+    "name": "Rewind",
+    "repository": "Buraddomoon/reversible-debugger",
+    "category": "DEVELOPER TOOLS",
+    "summary": "Explore execution in both directions",
+    "stack": "TypeScript · React · Python subset",
+    "emblem": "rewind",
+    "description": "A visual reversible debugger with a Python-subset interpreter, delta history, sparse checkpoints and execution comparison.",
+    "sources": ["https://github.com/Buraddomoon/reversible-debugger/blob/main/README.md", "https://github.com/Buraddomoon/reversible-debugger/blob/main/docs/architecture.md"]
+  },
+  {
+    "slug": "devreview",
+    "name": "DevReview AI",
+    "repository": "Buraddomoon/Hackaton-T2S",
+    "category": "HACKATHON PROTOTYPE",
+    "summary": "AI-assisted repository review",
+    "stack": "Python · FastAPI · OpenAI API",
+    "emblem": "review",
+    "description": "A DragonsHacka 2025 prototype that clones a GitHub repository and generates AI feedback from its README. Structure and source-code analysis helpers are still placeholders.",
+    "sources": ["https://github.com/Buraddomoon/Hackaton-T2S/blob/main/README.md", "https://github.com/Buraddomoon/Hackaton-T2S/blob/main/backend/app/main.py"]
+  },
+  {
+    "slug": "firebaseforms",
+    "name": "FirebaseForms",
+    "repository": "Buraddomoon/FirebaseForms",
+    "category": "DESKTOP APPLICATION",
+    "summary": "Book management with Firebase",
+    "stack": "Java · Swing · Firebase",
+    "emblem": "forms",
+    "description": "A desktop book manager with Java Swing forms and create, search, update and delete operations backed by Firebase Realtime Database.",
+    "sources": ["https://github.com/Buraddomoon/FirebaseForms/blob/main/src/main/java/org/example/LivroDAO.java", "https://github.com/Buraddomoon/FirebaseForms/blob/main/src/main/java/org/example/LivroForm.java"]
+  },
+  {
+    "slug": "unity",
+    "animation_seconds": 2.5,
+    "name": "2D Unity",
+    "repository": "Buraddomoon/2D-Unity",
+    "category": "GAMEPLAY PROTOTYPE",
+    "summary": "Movement, dialogue & collectibles",
+    "stack": "Unity · C#",
+    "emblem": "platformer",
+    "description": "A 2D gameplay prototype with movement, double jumps, NPC dialogue, collectibles and falling platforms.",
+    "sources": ["https://github.com/Buraddomoon/2D-Unity/blob/main/Assets/Scripts/Player.cs", "https://github.com/Buraddomoon/2D-Unity/blob/main/Assets/Scripts/Dialogue%20Control.cs"]
+  },
+  {
+    "slug": "tarefas",
+    "name": "Tarefas API",
+    "repository": "Buraddomoon/Tarefas-API",
+    "category": "BACKEND STUDY",
+    "summary": "A layered task-management API",
+    "stack": "Java · Spring Boot · JPA",
+    "emblem": "tasks",
+    "description": "A task-management REST API with controllers, services, DTOs, mappers and a Spring Data JPA repository.",
+    "sources": ["https://github.com/Buraddomoon/Tarefas-API/blob/main/pom.xml", "https://github.com/Buraddomoon/Tarefas-API/blob/main/src/main/java/com/tarefasAPI/service/TarefaService.java"]
+  }
+]
