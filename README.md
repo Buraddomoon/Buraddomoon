@@ -1,4 +1,4 @@
-<img src="./assets/header.svg" width="100%" alt="Fabio Lopes / Buraddomoon. DevOps at Chinalink. Backend, game development and cybersecurity studies." />
+<img src="./assets/header-fabio.svg" width="100%" alt="Fabio Lopes / Buraddomoon. DevOps at Chinalink. Backend, game development and cybersecurity studies." />
 
 I'm a **Systems Analysis and Development graduate**, working in **DevOps at Chinalink**. I build backend systems and developer tools, and develop games with **Unity** and **Unreal Engine 5**. I'm also continuing my cybersecurity studies.
 
@@ -6,12 +6,15 @@ I'm a **Systems Analysis and Development graduate**, working in **DevOps at Chin
 
 <!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/Buraddomoon/AEGIS"><img src="./assets/projects/aegis.svg" width="280" alt="ÆGIS — Detection validation &amp; evidence. Security automation. Open repository." /></a>
-  <a href="https://github.com/Buraddomoon/reversible-debugger"><img src="./assets/projects/rewind.svg" width="280" alt="Rewind — Explore execution in both directions. Developer tools. Open repository." /></a>
-  <a href="https://github.com/Buraddomoon/Hackaton-T2S"><img src="./assets/projects/devreview.svg" width="280" alt="DevReview AI — AI-assisted repository review. Hackathon prototype. Open repository." /></a>
-  <a href="https://github.com/Buraddomoon/FirebaseForms"><img src="./assets/projects/firebaseforms.svg" width="280" alt="FirebaseForms — Book management with Firebase. Desktop application. Open repository." /></a>
-  <a href="https://github.com/Buraddomoon/2D-Unity"><img src="./assets/projects/unity.svg" width="280" alt="2D Unity — Movement, dialogue &amp; collectibles. Gameplay prototype. Open repository." /></a>
-  <a href="https://github.com/Buraddomoon/Tarefas-API"><img src="./assets/projects/tarefas.svg" width="280" alt="Tarefas API — A layered task-management API. Backend study. Open repository." /></a>
+  <a href="https://github.com/Buraddomoon/AEGIS"><img src="./assets/projects/aegis.svg" width="30%" alt="ÆGIS — Detection validation &amp; evidence. Security automation. Open repository." /></a>
+  <a href="https://github.com/Buraddomoon/reversible-debugger"><img src="./assets/projects/rewind.svg" width="30%" alt="Rewind — Explore execution in both directions. Developer tools. Open repository." /></a>
+  <a href="https://github.com/Buraddomoon/Hackaton-T2S"><img src="./assets/projects/devreview.svg" width="30%" alt="DevReview AI — AI-assisted repository review. Hackathon prototype. Open repository." /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Buraddomoon/FirebaseForms"><img src="./assets/projects/firebaseforms.svg" width="30%" alt="FirebaseForms — Book management with Firebase. Desktop application. Open repository." /></a>
+  <a href="https://github.com/Buraddomoon/2D-Unity"><img src="./assets/projects/unity.svg" width="30%" alt="2D Unity — Movement, dialogue &amp; collectibles. Gameplay prototype. Open repository." /></a>
+  <a href="https://github.com/Buraddomoon/Tarefas-API"><img src="./assets/projects/tarefas.svg" width="30%" alt="Tarefas API — A layered task-management API. Backend study. Open repository." /></a>
 </p>
 
 <p align="center"><a href="https://github.com/Buraddomoon?tab=repositories">Explore all repositories ↗</a></p>

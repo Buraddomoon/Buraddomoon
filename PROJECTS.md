@@ -8,7 +8,7 @@ To add or reorder a project, edit that file and run:
 python3 scripts/build_projects.py
 ```
 
-The generator rebuilds the individual animated SVGs and the README section between `PROJECTS:START` and `PROJECTS:END`. It uses Python's standard library, requires no API credentials, and leaves the rest of the README untouched. Images wrap into new rows as more projects are added. The “Explore all repositories” link also leads to projects that do not yet have an insignia.
+The generator rebuilds the individual animated SVGs and the README section between `PROJECTS:START` and `PROJECTS:END`. It uses Python's standard library, requires no API credentials, and leaves the rest of the README untouched. Projects are grouped in rows of three, with proportional image widths that fit the GitHub profile column. The “Explore all repositories” link also leads to projects that do not yet have an insignia.
 
 Use verified descriptions and source links. Keep `summary` brief enough for one line and `stack` to a few technologies. Available emblem drawings are `defense-test`, `reticle`, `cyberlab`, `helmet`, `correlation`, `shield`, `rewind`, `review`, `checkpoint`, `forms`, `platformer`, and `tasks`; a new drawing can be added to `frame()` in the generator. Each emblem has its own animation and a static fallback for reduced-motion preferences.
 

@@ -422,8 +422,9 @@ def main():
         (ASSETS/f'{project["slug"]}.svg').write_text(badge(project))
         url='https://github.com/'+project['repository']
         alt=f'{project["name"]} — {project["summary"]}. {project["category"].capitalize()}. Open repository.'
-        links.append(f'  <a href="{url}"><img src="./assets/projects/{project["slug"]}.svg" width="280" alt="{escape(alt,quote=True)}" /></a>')
-    block='<!-- PROJECTS:START -->\n<p align="center">\n'+'\n'.join(links)+'\n</p>\n\n<p align="center"><a href="https://github.com/Buraddomoon?tab=repositories">Explore all repositories ↗</a></p>\n\n<details>\n<summary>Project index &amp; technical notes</summary>\n\n'
+        links.append(f'  <a href="{url}"><img src="./assets/projects/{project["slug"]}.svg" width="30%" alt="{escape(alt,quote=True)}" /></a>')
+    rows=['<p align="center">\n'+'\n'.join(links[i:i+3])+'\n</p>' for i in range(0,len(links),3)]
+    block='<!-- PROJECTS:START -->\n'+'\n\n'.join(rows)+'\n\n<p align="center"><a href="https://github.com/Buraddomoon?tab=repositories">Explore all repositories ↗</a></p>\n\n<details>\n<summary>Project index &amp; technical notes</summary>\n\n'
     for project in projects:
         block+=f'- [**{project["name"]}**](https://github.com/{project["repository"]}) — {project["description"]}\n'
     block+='\n[ÆGIS architecture](https://github.com/Buraddomoon/AEGIS/blob/main/docs/architecture/overview.md) · [Rewind architecture](https://github.com/Buraddomoon/reversible-debugger/blob/main/docs/architecture.md)\n\n</details>\n<!-- PROJECTS:END -->'
