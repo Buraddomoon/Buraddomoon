@@ -57,7 +57,7 @@ I'm a **Systems Analysis and Development graduate**, working in **DevOps at Chin
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 <a href="https://www.linkedin.com/in/fabio-lopes-31b46a373">
-  <img src="./assets/connect.svg" width="100%" alt="Let's build together. Open to collaboration on backend systems, developer tools and detection validation. Connect with Fábio Lopes on LinkedIn." />
+  <img src="./assets/connect.svg" width="100%" alt="Let's build together. Open to collaboration on backend systems, developer tools and detection validation. Connect with Fabio Lopes on LinkedIn." />
 </a>
 
 Open to collaboration on **backend systems**, **developer tools**, and **detection validation**. Architecture feedback, test cases, and reproducible bug reports are welcome.

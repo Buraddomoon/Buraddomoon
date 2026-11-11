@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="208" viewBox="0 0 1200 208" role="img" aria-labelledby="title desc"><title id="title">Let’s build</title><desc id="desc">Connect with Fábio Lopes on LinkedIn. Open to collaboration on backend systems, developer tools and detection validation.</desc><style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="208" viewBox="0 0 1200 208" role="img" aria-labelledby="title desc"><title id="title">Let’s build</title><desc id="desc">Connect with Fabio Lopes on LinkedIn. Open to collaboration on backend systems, developer tools and detection validation.</desc><style>
 .orb-strip{animation:orbStrip 8s steps(96,end) infinite;will-change:transform}
 @keyframes orbStrip{to{transform:translateX(-27648px)}}
 .event-active{animation:eventActive 10s steps(1,end) infinite}.check-active{animation:checkActive 10s steps(1,end) infinite}.evidence-outline{animation:evidenceOutline 10s steps(1,end) infinite}
