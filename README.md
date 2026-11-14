@@ -38,7 +38,7 @@ I'm a **Systems Analysis and Development graduate**, working in **DevOps at Chin
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/toolbox-mobile.svg" />
-  <img src="./assets/toolbox.svg" width="100%" alt="Languages: Python, Java, TypeScript and C#. AI workflow: Claude Code and Codex. Game development: Unity and Unreal Engine 5. Cybersecurity studies: Nmap, Metasploit, Hydra and John the Ripper. Learning environments: Kali Linux and BlackArch." />
+  <img src="./assets/toolbox.svg" width="100%" alt="Languages: Python, Java, TypeScript and C#. AI workflow: Claude Code and Codex. Game development: Unity and Unreal Engine 5. Cybersecurity studies: Nmap, Metasploit, Hydra, John the Ripper, Nikto and Gobuster. Learning environments: Kali Linux and BlackArch." />
 </picture>
 
 <details>
@@ -49,7 +49,7 @@ I'm a **Systems Analysis and Development graduate**, working in **DevOps at Chin
 | Languages | Python · Java · TypeScript · C# |
 | AI in my workflow | Claude Code · Codex |
 | Game development | Unity · Unreal Engine 5 |
-| Cybersecurity studies | Nmap · Metasploit · Hydra · John the Ripper |
+| Cybersecurity studies | Nmap · Metasploit · Hydra · John the Ripper · Nikto · Gobuster |
 | Learning environments | Kali Linux · BlackArch |
 
 </details>

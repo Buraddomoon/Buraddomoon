@@ -83,5 +83,15 @@
     "url": "https://blackarch.org/images/logo/ba-logo.png",
     "library": "Official BlackArch logo reference; simplified pixel redraw of the Arch silhouette and katana",
     "original_sha256": "7509fb37496d16e49de19f52495e14a985ce560879932b534a97de781a77fc77"
+  },
+  "nikto": {
+    "url": "https://www.kali.org/tools/nikto/images/nikto-logo.svg",
+    "library": "Kali Linux tool logo reference; simplified pixel redraw",
+    "original_sha256": "491b4ffa9c293fc6b16235922775a2d21ebe7b7ab55374896411b65298dba3cb"
+  },
+  "gobuster": {
+    "url": "https://www.kali.org/tools/gobuster/images/gobuster-logo.svg",
+    "library": "Kali Linux tool logo reference; simplified pixel redraw",
+    "original_sha256": "95a52ce1efd7188429513e1951ba46d03e220ce7a58f4fa6dd62d2b7c27ab235"
   }
 }

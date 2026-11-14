@@ -13,6 +13,7 @@ ALIASES = {
     "Codex": "codex", "Unity": "unity", "Unreal Engine 5": "unrealengine",
     "Nmap": "scanner", "Metasploit": "metasploit", "Hydra": "key",
     "John the Ripper": "password", "Kali Linux": "kalilinux", "BlackArch": "blackarch",
+    "Nikto": "nikto", "Gobuster": "gobuster",
     "React": "react", "FastAPI": "fastapi", "Roblox": "roblox", "Luau": "luau",
     "Spring Boot": "spring", "JPA": "database", "OpenAI API": "ai",
     "Swing": "window", "Firebase": "firebase",

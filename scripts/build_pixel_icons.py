@@ -160,6 +160,52 @@ def blackarch_pixels():
     return {'#F2F0E8':sword.cells-arch.cells,'#4778FF':arch.cells}
 
 
+def security_pixels(name):
+    # Simplified redraws of the Kali tool marks: alien and speeding globe.
+    sprites = {
+        'nikto': [
+            '......WWWW......',
+            '....WWWWWWWW....',
+            '...WWWWWWWWWW...',
+            '..WWWWWWWWWWWW..',
+            '..WWWWWWWWWWWW..',
+            '..WWWWWWWWWWWW..',
+            '..WWWWWWWWWWWW..',
+            '..WBBWWWWWWBBW..',
+            '..W.BBBWWBBB.W..',
+            '...W.BBWWBB.W...',
+            '...WW.WWWW.WW...',
+            '....WWWWWWWW....',
+            '.....WWWWWW.....',
+            '......WWWW......',
+            '.......WW.......',
+            '................',
+        ],
+        'gobuster': [
+            '................',
+            '..........BB.B..',
+            '........BBBBBBB.',
+            '.......BB..B..BB',
+            '..BBB.BB.B.B.B.B',
+            '......B..BBBBBBB',
+            'BBBB.BBBBB.B..BB',
+            '.....B.B...B..BB',
+            '.BBB.BBBBBBBBBB.',
+            '.....BB..B.B.BB.',
+            '......B.WW..BB..',
+            '......BWW.WBB.W.',
+            '.......WW.W..W.W',
+            '........WW....W.',
+            '................',
+            '................',
+        ],
+    }
+    rows = sprites[name]
+    assert len(rows) == SIZE and all(len(row) == SIZE for row in rows)
+    return {color: {(x, y) for y, row in enumerate(rows) for x, cell in enumerate(row) if cell == symbol}
+            for color, symbol in [('#F2F0E8', 'W'), ('#4778FF', 'B')]}
+
+
 def svg_path(cells):
     commands=[]
     for y in range(SIZE):
@@ -184,11 +230,16 @@ def main():
     utility={'scanner','key','password','terminal','database','ai','window'}
     for source in sorted(ICONS.glob('*.svg')):
         name=source.stem
-        cells=utility_pixels(name) if name in utility else brand_pixels(source)
+        if name in {'nikto', 'gobuster'}:
+            layers = security_pixels(name)
+            cells = set().union(*layers.values())
+        else:
+            cells=utility_pixels(name) if name in utility else brand_pixels(source)
+            layers = None
         if name=='java':
             cells=java_pixels()
         assert cells, name
-        layers=python_pixels() if name=='python' else blackarch_pixels() if name=='blackarch' else {'#F2F0E8':cells}
+        layers=layers or (python_pixels() if name=='python' else blackarch_pixels() if name=='blackarch' else {'#F2F0E8':cells})
         paths=''.join(f'<path fill="{color}" d="{svg_path(points)}"/>' for color,points in layers.items())
         svg=(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {SIZE} {SIZE}" '
              f'width="32" height="32" shape-rendering="crispEdges" data-pixel-grid="{SIZE}" '
