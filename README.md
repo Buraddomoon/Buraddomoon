@@ -1,4 +1,4 @@
-<img src="./assets/header-fabio.svg?intro=shorter-phases" width="100%" alt="Fabio Lopes / Buraddomoon. DevOps at Chinalink. Backend, game development and cybersecurity studies." />
+<img src="./assets/header-fabio.svg?intro=cyber-radar" width="100%" alt="Fabio Lopes / Buraddomoon. DevOps at Chinalink. Backend, game development and cybersecurity studies." />
 
 I'm a **Systems Analysis and Development graduate**, working in **DevOps at Chinalink**. I build backend systems and developer tools, and develop games with **Unity** and **Unreal Engine 5**. I'm also continuing my cybersecurity studies.
 
