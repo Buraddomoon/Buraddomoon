@@ -1,5 +1,7 @@
 # Asset sources
 
+The displayed header uses a content-versioned filename so browsers and image proxies fetch new artwork when it changes. `assets/header-fabio.svg` remains the build source; run `python3 scripts/version_header.py` after updating it to create the versioned copy and update the README image reference. Existing versions are retained for older links.
+
 The SVG assets use a four-color source palette: #101216, #F2F0E8, #7B8494 and #4778FF. The limited palette applies to the graphic assets; project screenshots retain their original colors.
 
 The graphics use contemporary typography, a pixel-art controller / terminal / security introduction with bounded pixel-sweep morph transitions, a pixel adaptation of the Kali dragon spinning 360 degrees in the image plane like a fan propeller, event-to-evidence validation, and reversible state timelines. Game development skills include Unity and Unreal Engine 5, as confirmed by the profile owner. Reduced-motion preferences are supported. The animated structures are conceptual illustrations, not live project measurements.
